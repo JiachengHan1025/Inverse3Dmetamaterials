@@ -1,4 +1,4 @@
-tPhys=csvread("F:\hanjiacheng\学习资料\热传导微结构项目进展\M&Drevision\Github\temperature field\IWP\bulk\tphys.csv");
+tPhys=csvread("IWP\bulk\tphys.csv");%change the path to the tPhys.csv you want
 tPhys=reshape(tPhys,128,128,128);
 %projection
 beta=256;
